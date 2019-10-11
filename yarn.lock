@@ -2503,24 +2503,6 @@ broccoli-funnel-reducer@^1.0.0:
   resolved "https://registry.yarnpkg.com/broccoli-funnel-reducer/-/broccoli-funnel-reducer-1.0.0.tgz#11365b2a785aec9b17972a36df87eef24c5cc0ea"
   integrity sha1-ETZbKnha7JsXlyo234fu8kxcwOo=
 
-broccoli-funnel@^0.2.2:
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/broccoli-funnel/-/broccoli-funnel-0.2.15.tgz#4d0c128bef746e02f91038415aac4adbfaae222d"
-  integrity sha1-TQwSi+90bgL5EDhBWqxK2/quIi0=
-  dependencies:
-    array-equal "^1.0.0"
-    blank-object "^1.0.1"
-    broccoli-plugin "^1.0.0"
-    debug "^2.2.0"
-    fast-ordered-set "^1.0.0"
-    fs-tree-diff "^0.3.0"
-    minimatch "^2.0.1"
-    mkdirp "^0.5.0"
-    path-posix "^1.0.0"
-    rimraf "^2.4.3"
-    symlink-or-copy "^1.0.0"
-    walk-sync "^0.2.6"
-
 broccoli-funnel@^1.0.0, broccoli-funnel@^1.0.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/broccoli-funnel/-/broccoli-funnel-1.2.0.tgz#cddc3afc5ff1685a8023488fff74ce6fb5a51296"
@@ -2589,16 +2571,7 @@ broccoli-lint-eslint@^5.0.0:
     lodash.defaultsdeep "^4.6.0"
     md5-hex "^2.0.0"
 
-broccoli-merge-trees@^0.2.1:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/broccoli-merge-trees/-/broccoli-merge-trees-0.2.4.tgz#1936f63bb09e24246b1e91d8c53162c0f7b24c3c"
-  integrity sha1-GTb2O7CeJCRrHpHYxTFiwPeyTDw=
-  dependencies:
-    broccoli-plugin "^1.0.0"
-    debug "^2.2.0"
-    symlink-or-copy "^1.0.0"
-
-broccoli-merge-trees@^1.0.0, broccoli-merge-trees@^1.1.0, broccoli-merge-trees@^1.1.2:
+broccoli-merge-trees@^1.0.0, broccoli-merge-trees@^1.1.0, broccoli-merge-trees@^1.1.1, broccoli-merge-trees@^1.1.2:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/broccoli-merge-trees/-/broccoli-merge-trees-1.2.4.tgz#a001519bb5067f06589d91afa2942445a2d0fdb5"
   integrity sha1-oAFRm7UGfwZYnZGvopQkRaLQ/bU=
@@ -4554,14 +4527,14 @@ ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.2, ember-cli-babel@^7.10.0, ember-c
     ensure-posix-path "^1.0.2"
     semver "^5.5.0"
 
-ember-cli-blanket@0.9.2:
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/ember-cli-blanket/-/ember-cli-blanket-0.9.2.tgz#ef1d457a9d8a2893bc3f3a4c2dbbfb04e661787c"
-  integrity sha1-7x1Fep2KKJO8PzpMLbv7BOZheHw=
+ember-cli-blanket@^0.9.10:
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/ember-cli-blanket/-/ember-cli-blanket-0.9.10.tgz#8ea75ba1bf830a56610fae5118fb5b44c228e990"
+  integrity sha1-jqdbob+DClZhD65RGPtbRMIo6ZA=
   dependencies:
     body-parser "^1.12.2"
-    broccoli-funnel "^0.2.2"
-    broccoli-merge-trees "^0.2.1"
+    broccoli-funnel "^1.0.1"
+    broccoli-merge-trees "^1.1.1"
     core-object "^1.1.0"
     debug "^2.2.0"
     ember-cli-version-checker "1.1.6"
@@ -6254,14 +6227,6 @@ fs-readdir-recursive@^0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/fs-readdir-recursive/-/fs-readdir-recursive-0.1.2.tgz#315b4fb8c1ca5b8c47defef319d073dad3568059"
   integrity sha1-MVtPuMHKW4xH3v7zGdBz2tNWgFk=
-
-fs-tree-diff@^0.3.0:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/fs-tree-diff/-/fs-tree-diff-0.3.1.tgz#41a84ee34994bd564c63d9852f1109c5de7f9290"
-  integrity sha1-QahO40mUvVZMY9mFLxEJxd5/kpA=
-  dependencies:
-    debug "^2.2.0"
-    fast-ordered-set "^1.0.2"
 
 fs-tree-diff@^0.5.0, fs-tree-diff@^0.5.2, fs-tree-diff@^0.5.3, fs-tree-diff@^0.5.4, fs-tree-diff@^0.5.6, fs-tree-diff@^0.5.7:
   version "0.5.9"
@@ -11533,7 +11498,7 @@ vm-browserify@~0.0.1:
   dependencies:
     indexof "0.0.1"
 
-walk-sync@^0.2.5, walk-sync@^0.2.6, walk-sync@^0.2.7:
+walk-sync@^0.2.5, walk-sync@^0.2.7:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/walk-sync/-/walk-sync-0.2.7.tgz#b49be4ee6867657aeb736978b56a29d10fa39969"
   integrity sha1-tJvk7mhnZXrrc2l4tWop0Q+jmWk=
