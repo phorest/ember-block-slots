@@ -1,12 +1,13 @@
 /* global require, module */
-var EmberAddon = require('ember-cli/lib/broccoli/ember-addon')
+const EmberAddon = require('ember-cli/lib/broccoli/ember-addon')
 
 module.exports = function (defaults) {
-  var app = new EmberAddon(defaults, {
+  let app = new EmberAddon(defaults, {
     'ember-cli-mocha': {
       useLintTree: false
     },
     sassOptions: {
+      implementation: require('node-sass'),
       includePaths: [
         'node_modules/ember-frost-core/addon/styles'
       ]
@@ -16,7 +17,7 @@ module.exports = function (defaults) {
     ]
   })
 
-  app.import('bower_components/highlightjs/styles/github.css')
+  // app.import('bower_components/highlightjs/styles/github.css')
 
   return app.toTree()
 }
